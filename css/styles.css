@@ -57,6 +57,9 @@ height: auto;}
 .logo-header {
         color: #2E2F42;
         }
+.link {
+    padding: 24px 0;
+}
 
 .list-nav {
         display: flex;
@@ -265,9 +268,6 @@ cursor: pointer; }
       padding-bottom: 120px;
 }
 
-.container.portfolio {
-      border-bottom: 1px solid #e7e9fc;
-}
 .portfolio-list {
         display: flex;
         flex-wrap: wrap;
@@ -293,6 +293,7 @@ cursor: pointer; }
 }
 .portfolio-name {
         padding: 32px 16px;
+        border-bottom: 1px solid #e7e9fc;
         }
 
 .portfolio-second-title {
