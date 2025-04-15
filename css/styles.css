@@ -65,7 +65,7 @@ height: auto;}
         display: flex;
         gap: 40px;
         align-items: center; 
-        padding: 24px 0;     
+         
     }
 
 .nav-item {
@@ -81,7 +81,6 @@ height: auto;}
 
 
 .contacts-header {
-        padding: 24px 0;
         display: flex;
         justify-content: flex-end;
         gap: 40px;
@@ -203,11 +202,9 @@ cursor: pointer; }
 
 .section.our-team {
     padding: 120px 0;   
+    background: #F4F4FD;
 }
 
-.container.team {
-    background: #F4F4FD;   
-}
 
 .team-list {
     display: flex;
@@ -294,6 +291,8 @@ cursor: pointer; }
 .portfolio-name {
         padding: 32px 16px;
         border-bottom: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
         }
 
 .portfolio-second-title {
@@ -318,12 +317,9 @@ cursor: pointer; }
 
     .footer-section {
         padding: 100px 0;
+        background: #2E2F42;
     }
 
-.container.footer {
-        background: #2E2F42;
-         
-    }
   
 .footer-block {
         width: 264px;
